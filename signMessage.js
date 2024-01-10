@@ -10,4 +10,7 @@ const signature = wallet.signMessageSync(message);
 console.log("Signature:", signature);
 
 const verify = ethers.verifyMessage(message, signature);
+
+
+
 console.log("Verified:", verify);
